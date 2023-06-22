@@ -9,12 +9,12 @@ def main():
     f_num = int(input('Number of Female Students: '))
     total_num = m_num+f_num
 
-    m_perc = m_num/total_num
-    f_perc = f_num/total_num
+    m_perc = (m_num/total_num)*100
+    f_perc = (f_num/total_num)*100
 
     print('Total Number of Students: ', total_num)
     print('Males: ', m_num, '\t', 'Females: ', f_num)
-    print(f'Percent Male: {m_perc:.2%} \t Percent Female: {f_perc:.2%}')
+    print(f'Percent Male: {m_perc:.2f} % \t Percent Female: {f_perc:.2f} %')
     """
     ########################################
     # Do not delete the return statement
